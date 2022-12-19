@@ -101,5 +101,7 @@ class BukkMaraton2019 {
             System.err.print("Fájl nem található!");
             return;
         }
+        double szazalekertek = (1 - ((double) versenyzoList.size() / 691)) * 100;
+        System.out.println("4. feladat: A versenytávot nem teljesítők: " + szazalekertek + "%");
     }
 }
